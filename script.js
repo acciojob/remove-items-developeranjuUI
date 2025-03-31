@@ -5,4 +5,4 @@ function removeColor(){
 		selectElement.remove(selectElement.selectIndex);
 	}
 }
-document.getElementById('colorSelect').addEventListener('click',removeColor);
+document.getElementById('input[type="button"][value="Select and Remove"]').addEventListener('click',removeColor);
